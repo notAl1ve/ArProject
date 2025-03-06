@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const mindarThree = new window.MINDAR.IMAGE.MindARThree({
+    const mindarThree = new mindarThree.MindARThree({
         container: document.querySelector("#container"),
         imageTargetSrc: "./ArProjcete/marker.mind",
     });
